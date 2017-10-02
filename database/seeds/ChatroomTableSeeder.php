@@ -19,8 +19,8 @@ class ChatroomTableSeeder extends Seeder
     ]);
 
     $user = User::create([
-      'name' => 'adrian blair',
-      'email' => 'adrianblair1992@gmail.com',
+      'name' => 'laravel admin',
+      'email' => 'admin@laravel.com',
       'password' => bcrypt('password123@')
     ]);
 
